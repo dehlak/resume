@@ -7,11 +7,15 @@ const Interest = styled.p`
   margin: 3px 0;
 `;
 
+const ExperienceSectionHeader = styled(Common.SectionHeader)`
+  margin-top: 0;
+`;
+
 class Interests extends React.Component {
   render() {
     return (
       <Common.RightContainer>
-        <Common.SectionHeader>INTERESTS</Common.SectionHeader>
+        <ExperienceSectionHeader>INTERESTS</ExperienceSectionHeader>
         <Interest>Coding/</Interest>
         <Interest>Gaming/</Interest>
         <Interest>Carp Fishing/</Interest>

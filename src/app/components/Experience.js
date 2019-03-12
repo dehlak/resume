@@ -1,11 +1,16 @@
 import * as React from 'react';
+import styled from 'styled-components';
 import Common from './Common';
+
+const ExperienceSectionHeader = styled(Common.SectionHeader)`
+  margin-top: 0;
+`;
 
 class Experience extends React.Component {
   render() {
     return (
       <Common.RightContainer>
-        <Common.SectionHeader>EXPERIENCE</Common.SectionHeader>
+        <ExperienceSectionHeader>EXPERIENCE</ExperienceSectionHeader>
         <Common.Item>
           <Common.ItemName>2010/present</Common.ItemName>
           <Common.ItemDescription><Common.Bold>Qelp</Common.Bold></Common.ItemDescription>
